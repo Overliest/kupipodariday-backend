@@ -6,6 +6,5 @@ export enum WishesLimits {
 export enum WishErrors {
   NotFound = 'Желание не найдено',
   NotOwner = 'Это не ваше желание',
-  OwnWishCopy = 'Вы не можете скопировать собственное желание',
   CannotChangePrice = 'Нельзя изменить цену: уже собраны средства',
 }
